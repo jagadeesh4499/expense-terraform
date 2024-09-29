@@ -1,5 +1,5 @@
 module "mysql_sg" {
-  source = "../security_group_module"
+  source = "../security-group-module"
   project = var.project
   environment = var.environment
   sg_name = "mysql"
