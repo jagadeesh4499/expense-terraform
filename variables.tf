@@ -24,10 +24,10 @@ variable "is_peering_required" {
   default = true
 }
 variable "mysql_sg_tags" {
-    default = {
-        Component = "mysql"
-    }
+  default = {
+    Component = "mysql"
+  }
 }
 variable "sg_name" {
-    default = "mysql"
+  default = "mysql"
 }
